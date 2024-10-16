@@ -1,0 +1,314 @@
+.my-header {
+    text-align: center;
+    background-color: #102C57; 
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: large;
+    color: white;
+    font-weight: bold; 
+    margin-top: 0;
+}
+
+
+ .home{
+    padding-left : 20%;
+
+a {
+    color: black; 
+    text-decoration: none; 
+}
+
+
+a:hover {
+    color: blue;
+    text-decoration: underline; 
+}
+
+} 
+
+
+.search-container {
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering (if needed) */
+    height: 10vh; /* Full viewport height for vertical centering */
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 45px;
+    text-align: center;
+    background-color: #f1f1f1;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Style for the input field */
+.search-input {
+    flex: 1;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+    font-size: 16px;
+    background: none;
+}
+
+/* Style for the search button */
+.search-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 100%;
+    background-color: #120C57;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Style for hover effect */
+.search-btn:hover {
+    background-color: #120C57;
+}
+
+/* Style for the search icon */
+.search-btn i {
+    font-size: 18px;
+}
+
+/* Optional: Custom FontAwesome style */
+@import url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb5gJN7JtWoSjpa0ZUzEPYgVOTRyb_7PtbBQ&s');
+
+
+.banner {
+    background: url('https://images.pexels.com/photos/259132/pexels-photo-259132.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center center/cover;
+    height: 30vh; 
+    position: relative;
+    /* padding-top: 0.5%; */
+}
+
+.overlay {
+    background-color: rgba(16, 44, 67, 0.6); 
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.content h1 {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.container {
+    display: flex; /* Create a flexible layout */
+    align-items: center; /* Align text and image vertically */
+    justify-content: flex-start; /* Align the items from the start */
+}
+
+.empower {
+    width: 60%; /* Keep the text section width */
+}
+
+.empower  h2{
+    padding-top : 2%;
+    font-size: xx-large;
+    padding-left: 12%;
+    padding-right: 12%;
+    font-style :inherit;
+    
+}
+
+.empower p {      
+    padding-left: 12%;
+    padding-right: 12%; 
+    font-size:  larger;   
+          
+}
+
+.image-container img {
+    width: 300px; /* You can adjust the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 120px; /* Add some space between the text and image */
+}
+.heros h2{
+    padding-top : 2%;
+    padding-left:50%;
+    padding-right:12%;
+    text-align: right;
+    font-size: xx-large;
+    font-style :inherit;
+    
+}
+
+/* For grid layout */
+.photo-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+    align-items: flex-start; 
+}
+
+.photo-item {
+    text-align: center;
+    width: 160px; 
+}
+.photo-item img {
+    width: 160px;  /* Make width and height equal to create a perfect square */
+    height: 160px;
+    object-fit: cover;  /* Ensures the image doesn't stretch and maintains proportions */
+    border-radius: 50%;  /* This makes it a circle */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.photo-item p {
+    margin-top: 10px;
+    font-size: 14px; 
+    word-wrap: break-word; 
+
+}
+
+.choose h2{
+    padding-top : 2%;
+    font-size: xx-large;
+    padding-left: 7%;
+    padding-right: 12%;
+    font-style :inherit;
+    
+    
+}
+
+.choose p{
+    padding-left: 7%;
+    padding-right: 50%; 
+    font-size:  larger;  
+          
+}
+
+.point1 p{
+    padding-left: 7%;
+    padding-right: 50%; 
+    font-size:  larger;    
+          
+}
+
+.point2 p{
+    padding-left: 7%;
+    padding-right: 50%; 
+    font-size:  larger;   
+   
+}
+
+.point3 p{
+    padding-left: 7%;
+    padding-right: 50%; 
+    font-size:  larger; 
+}
+
+.innov-image {
+    display: flex; /* Create a flexible layout */
+    align-items: center; /* Align text and image vertically */
+    justify-content: space-between; /* Space between text and image */
+    width: 100%; /* Ensure the container spans the full width */
+    
+}
+
+.image-innov img {
+    width: 300px; /* Set image width */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Add space between the image and text */
+    margin-left:120px;
+}
+
+.innovative {
+    width: 60%; /* Text section takes 60% of the width */
+    text-align: right; /* Align text to the right */
+    padding: 0; /* Remove any excess padding */
+}
+
+.innovative h3 {
+    font-size: xx-large;
+    font-style: inherit;
+    padding-right: 20%;
+
+}
+
+.innovative p {
+    font-size: larger;
+    padding-right: 20%; /* Remove any padding that might cause misalignment */
+    margin: 0; /* Remove margins that could interfere with alignment */
+}
+
+.commi-image {
+    display: flex; /* Create a flexible layout */
+    align-items: center; /* Align text and image vertically */
+    justify-content: flex-start; /* Align the items from the start */
+}
+
+
+.commitment {
+    width: 60%;
+
+}
+
+.commitment p{
+    padding-left: 12%;
+    padding-right: 30%; 
+    font-size:  larger;
+            
+}
+
+.commitment h3{
+    padding-top : 2%;
+    font-size: xx-large;
+    padding-left: 12%;
+    padding-right: 10%;
+    font-style :inherit;
+    
+}
+
+.image-commi img {
+    width: 300px; /* You can adjust the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 120px; /* Add some space between the text and image */
+}
+
+.join-image {
+    display: flex; /* Create a flexible layout */
+    align-items: center; /* Align text and image vertically */
+    justify-content: space-between; /* Space between text and image */
+    width: 100%; /* Ensure the container spans the full width */
+    
+}
+
+.image-join img {
+    width: 300px; /* Set image width */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Add space between the image and text */
+    margin-left:120px;
+}
+.joinus h3{
+    padding-top : 2%;
+    padding-left:50%;
+    padding-right:17%;
+    text-align: right;
+    font-size: xx-large;
+    font-style :inherit;
+}
+
+
+.joinus p{
+    padding-left: 25%;
+    padding-right: 17%;
+    text-align: right;
+    font-size: larger;   
+}
